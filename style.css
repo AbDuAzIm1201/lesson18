@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    background-color: khaki;
+    margin: 0 auto;
+}
+
+
+.box{
+    height: 100vh;
+    background-image: url("./img/Vector.png"),url("./img/Vector1.png");
+    background-repeat: no-repeat;
+    background-position: right top,left bottom ;
+    background-size: 20%,40%;
+}
+.menus{
+text-align: left;
+display: flex;
+align-items: left;
+justify-content: letf;
+list-style: none;
+gap: 1px;
+}
+.menus li{
+  padding-bottom: 50px;
+    box-shadow: 20px 20px 20px black;
+    width: 132px;
+    height: 34px;
+   padding-left: 250px;
+}
+.ota{
+display: flex;
+gap: 20px;
+
+
+}
+.menus li h1{
+    padding-bottom: 24px;
+    text-shadow: 2px 3px 5px blue   ;
+}
+
+  
+.soya{
+width: 133px;
+height: 133px;
+border: 2px solid black;
+ box-shadow: 2px 2px 2px 2px blue;
+ gap: 20px;
+ 
+
+
+
+}
+.soyalar-ota{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-left: 28px;
+    padding-top: 30px
+    ;
+}
+.ota img{
+
+    padding-top: 20px;
+}
+.container img{
+    padding-top: 20px;
+}
